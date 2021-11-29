@@ -1,0 +1,32 @@
+body{
+    background-color: #abdbba;
+    
+  }
+
+  #teste{
+    width: 400px;
+    height: 200px;
+    background-image: url() center fixed ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+     
+    
+  }
+  .folder {
+
+    background-image: url(Willian/Documents/ExemplosHTML/img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 100%;
+
+  }
+
+p.imagem {
+
+background-image: url(/Willian/Documents/ExemplosHTML/img/fundo.jpg);
+width: 800px;
+height: 600px;
+
+
+}

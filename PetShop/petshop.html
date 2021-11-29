@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<title>PETSHOP</title>
+
+<meta charset="UTF-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+<link rel="stylesheet" href="style.centercss">
+<link rel="shortcut icon" href="img/pet32x32.png" type="image/x-icon">
+<link rel="stylesheet" href="css/petshop.css">
+
+
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;" >
+    <a href="#home" class="w3-bar-item w3-button">PetShop para seu Cão</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Sobre</a>
+      <a href="#menu" class="w3-bar-item w3-button">Serviços</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contato</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  
+  <center><img src="img/pet06.png" alt="logo" width="350" height="300" style="padding: 50px;" ></center>s
+    <img class="w3-image" src="img/pet03.png" alt="folder pet" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge" style="position: absolute;"  >PETSHOP</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="img/pet02.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Sobre</h1><br>
+      <h5 class="w3-center">Tradição Petshop</h5>
+      <p class="w3-large">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, suscipit officia molestias aliquid labore aperiam voluptatem quibusdam sequi sed dicta rem laudantium sit saepe sint error at. Ea, laudantium quod?<span class="w3-tag w3-light-grey">seasonal</span> ingredients.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas illo incidunt labore laudantium expedita consequuntur debitis, quod error, hic odit vero sint veritatis, ab sapiente delectus molestiae quos ducimus qui!</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  
+  <div class="w3-container w3-text-grey w3-card-4" >
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center"><big>O que Oferecemos</big></h1><br>
+      <img src="img/pet04.png" alt="pet" style="width: 20%;">
+      <h4>Loja</h4>
+    
+      <p class="w3-text-grey">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p><br>
+    
+      <h4>Alimento balanceado para o seu Pet</h4>
+      <p class="w3-text-grey">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p><br>
+    
+      <h4>Brinquedos</h4>
+      <p class="w3-text-grey">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p><br>
+    
+      <h4>Consultoria Veterinária</h4>
+      <p class="w3-text-grey">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p><br>
+    
+      <h4>Acessórios</h4>
+      <p class="w3-text-grey">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>    
+    </div>
+    </div w3-text-blue-grey > 
+     <center><img src="img/pet05.png" alt="Menu" style="width:10%"></center >
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <u><h1>Contato</h1><br></u>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Lorem ipsum dolor, sit amet consectetur adipisicing</b></p>
+    <p>Telefone: (00)0000-0000 ou email email.pet@pet.com, Deixe-nos uma menssagem:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Nome" required name="Nome"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Endereço" required name="Endereço"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Nome do Pet" required name="Nome do Pet"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Telefone" required name="Telefone"></p>      
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">(Enviar Menssagem)</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p> <small> Powered by </small><a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">WPS</a></p>
+</footer>
+
+</body>
+</html>
